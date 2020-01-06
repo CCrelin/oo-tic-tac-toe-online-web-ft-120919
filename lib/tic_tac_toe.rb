@@ -18,7 +18,7 @@ class TicTacToe
   end
   
   def input_to_index(move) 
-    board
+    board[move.to_1-1]
   end
   
   
