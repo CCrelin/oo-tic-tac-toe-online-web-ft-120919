@@ -17,8 +17,8 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   
-  def input_to_index(move) 
-    @board[Integer(move || " ")]
+  def input_to_index(0) 
+    @board[0]
     
   end
   
