@@ -19,6 +19,7 @@ class TicTacToe
   
   def input_to_index(input) 
     @board[input]
+    input = input.to_i
     
   end
   
