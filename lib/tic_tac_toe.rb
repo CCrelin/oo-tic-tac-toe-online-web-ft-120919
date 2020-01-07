@@ -35,7 +35,7 @@ class TicTacToe
   
   def valid_move?(input)
     
-    move(input)=="X" || move(input)=="O"
+    position_taken?(input) == "X" || position_taken?(input) == "O"
   
   end
  
