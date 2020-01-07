@@ -34,7 +34,7 @@ class TicTacToe
   end
   
   def valid_move?(index)
-    input_to_index(index) ? true : false 
+    input_to_index(index) == "X" || input_to_index(index) == "O"
   
   end
  
