@@ -25,7 +25,7 @@ class TicTacToe
     @board[arg1] = arg2
   end 
   
-  def position_taken 
+  def position_taken? 
     @board.all? do |char| 
       if char == "X" || char == "O"
         true 
