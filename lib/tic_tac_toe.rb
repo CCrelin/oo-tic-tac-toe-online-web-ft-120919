@@ -23,9 +23,10 @@ class TicTacToe
   
   def move(arg1, arg2) 
     @board[arg1] = arg2
-    
-    
   end 
+  
+  def position_taken 
+    @board.all do
   
   
   
