@@ -26,13 +26,12 @@ class TicTacToe
   end 
   
   def position_taken?(index) 
-      index.each do 
         if index == "X" || index == "O"
           true
         else 
           false 
         end
-      end
+      
   end
   
   
