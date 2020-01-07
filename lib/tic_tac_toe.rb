@@ -28,8 +28,7 @@ class TicTacToe
   def position_taken?(index) 
       if index == "X" || index == "O"
         true
-      elsif 
-        index == ""
+      elsif index == ""
         false
       end 
   end
