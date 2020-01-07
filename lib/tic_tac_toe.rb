@@ -31,8 +31,10 @@ class TicTacToe
         else 
           false 
         end
-      
   end
+  
+  def valid_move
+  end 
   
   
   
