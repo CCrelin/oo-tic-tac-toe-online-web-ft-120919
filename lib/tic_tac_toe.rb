@@ -26,7 +26,7 @@ class TicTacToe
   end 
   
   def position_taken?(index) 
-      if index == nil
+      if index == ""
         false
       else 
         true
