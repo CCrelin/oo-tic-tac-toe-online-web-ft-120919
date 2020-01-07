@@ -34,7 +34,8 @@ class TicTacToe
   end
   
   def valid_move?(input)
-    input.to_s.between?(1, 9)
+    input.to_s.between?(1, 9) && position_taken?(input)
+    
   
   end
  
