@@ -22,7 +22,7 @@ class TicTacToe
   end
   
   def move(arg1, arg2) 
-    @board[input_to_index]
+    
   end 
   
   
