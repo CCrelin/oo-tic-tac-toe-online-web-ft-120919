@@ -37,7 +37,7 @@ class TicTacToe
     input_to_index(index) ? true : false 
     end
   end
-  end 
+   
   
   
   
