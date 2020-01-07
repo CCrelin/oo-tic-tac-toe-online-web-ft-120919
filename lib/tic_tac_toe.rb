@@ -37,8 +37,8 @@ class TicTacToe
     !position_taken?(input) && input.between?(0,8)
   end
   
-  def turn
-    
+  def turn(game)
+    game = gets
   end 
  
   
