@@ -26,7 +26,7 @@ class TicTacToe
   end 
   
   def position_taken?(board) 
-    board.all? do |char| 
+    board.each do |char| 
       if char == "X" || char == "O"
         true
       else 
