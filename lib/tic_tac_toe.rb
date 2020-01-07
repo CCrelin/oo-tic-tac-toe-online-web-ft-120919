@@ -37,6 +37,14 @@ class TicTacToe
     !position_taken?(input) && input.between?(0,8)
   end
   
+  def turn_count
+    @board.count{|token| token == "X" || token == "O"}
+  end
+  
+  def current_player
+    turn_count % 2 == 0 ? "X" : "O"
+  end
+  
   def turn
     puts "Please choose a number 1-9:"
     user_input = gets.chomp
@@ -48,19 +56,6 @@ class TicTacToe
     else
       turn
     end
-  end
- 
-  
-  
-  
-  
-  
-  def turn_count
-    @board.count{|token| token == "X" || token == "O"}
-  end
-  
-  def current_player
-    turn_count % 2 == 0 ? "X" : "O"
   end
  
 end
