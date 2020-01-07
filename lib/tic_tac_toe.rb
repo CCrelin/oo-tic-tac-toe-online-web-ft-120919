@@ -37,9 +37,6 @@ class TicTacToe
   !position_taken?(input)
   
   
-  
-    
-  
   end
  
   
